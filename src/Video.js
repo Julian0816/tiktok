@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import './Video.css';
 import VideoFooter from './VideoFooter';
+import VideoSidebar from './VideoSidebar';
 
 function Video() {
     const [playing, setPlaying] = useState(false)
@@ -28,12 +29,14 @@ function Video() {
         className='video__player'
         loop
         ref={videoRef}
-        src='https://v16-webapp.tiktok.com/afa1cfb79582e3865a596818c796e642/63475f6b/video/tos/alisg/tos-alisg-pve-0037c001/0fee704b44ad4bf7bd9174a4f5214e82/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=3076&bt=1538&cs=0&ds=3&ft=kLO5qyjGZmo0P4dymBkVQ6NwmiHKJdmC0&mime_type=video_mp4&qs=0&rc=Nzg7ZjY4aTw1aDU0Nzw3OkBpandmOGc6Zm11ZjMzODczNEBgLl5gLzViNi8xYmEyLmAxYSNhaTY2cjRfMGJgLS1kMS1zcw%3D%3D&l=20221012184410010217095233260018EC&btag=80000'></video>
+        src='https://v16-webapp.tiktok.com/d893e0a5063b22d771031bd44920faa8/63483333/video/tos/useast2a/tos-useast2a-ve-0068c004/656a7c5d04c3478e878e96518bf8974c/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=916&bt=458&cs=0&ds=3&ft=kLO5qyjGZmo0PwNMmBkVQk92miHKJdmC0&mime_type=video_mp4&qs=0&rc=NWZmPDRnZzRnNDtlMzY1OEBpM3ZrZDM6ZnI6ZzMzNzczM0AxYF80NTY1NTUxMV5iL2ExYSNwcW5ncjQwNTBgLS1kMTZzcw%3D%3D&l=20221013094609010214029018242AF2B2&btag=80000'></video>
 
         {/* VideoFooter */}
-        {/* VideoSidebar */}
-
         <VideoFooter />
+
+        {/* VideoSidebar */}
+        <VideoSidebar />
+        
     </div>
   )
 }
