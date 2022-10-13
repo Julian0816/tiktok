@@ -6,11 +6,11 @@ import Marquee from "react-fast-marquee";
 
 
 
-function VideoFooter({chanel, description, song}) {
+function VideoFooter({channel, description, song}) {
   return (
     <div className='videoFooter'>
         <div className='videoFooter__text'>
-            <h3>@{chanel}</h3>
+            <h3>@{channel}</h3>
             <p>{description}</p>
             <div className='videoFooter__ticker'>
               <MusicNoteIcon
