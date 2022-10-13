@@ -25,6 +25,15 @@ function App() {
           messages={654}
           shares={812}
           />
+          <Video 
+          url='https://v16-webapp.tiktok.com/736c212b92c26cd2a3283af7f677767d/63485409/video/tos/useast2a/tos-useast2a-pve-0068/83a37ae707f242a3a265f136d003a015/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C0%7C0&br=942&bt=471&cs=0&ds=3&ft=kLO5qyjGZmo0PLiYmBkVQ6nzmiHKJdmC0&mime_type=video_mp4&qs=0&rc=PGc2NDk8NDtlOzdkNmc1ZkBpajd3cnQ8N242NTMzNzczM0BjMTZgMWMtNTAxMmMuX14uYSMuZm9fajNrcnFgLS1kMTZzcw%3D%3D&l=202210131208000102171350200138B112&btag=80000'
+          channel='jjjjulian'
+          description='This is a different component'
+          song='99 problems but REACT AINT ONE!'
+          likes={999}
+          messages={654}
+          shares={812}
+          />
         </div>
         
         {/* app container */}
